@@ -1,0 +1,14 @@
+#titulo{
+    background-color: rgb(19, 138, 118);
+}
+
+.paragrafo{
+    font-size: larger;
+    color: darkslategrey;
+}
+
+li{
+    font-size: xx-large;
+    color: maroon;
+    background-color: rgb(204, 212, 204);
+}
