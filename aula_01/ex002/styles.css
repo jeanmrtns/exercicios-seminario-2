@@ -1,14 +1,33 @@
+body{
+    background-color: rgb(246, 255, 255);
+    margin: 0px;
+}
+
 #titulo{
-    background-color: rgb(19, 138, 118);
+    margin-top: 0px;
+    background-color: cornsilk;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: chocolate;
 }
 
 .paragrafo{
     font-size: larger;
-    color: darkslategrey;
+    color: rgb(10, 68, 68);
+    margin-left: 20px;
 }
 
 li{
-    font-size: xx-large;
+    font-size: large;
     color: maroon;
-    background-color: rgb(204, 212, 204);
+}
+
+.segundo-paragrafo{
+    margin-left: 20px;
+}
+
+#link-puc{ /* propriedade text-decoration: none; faz com que o link não mude de cor ao ser clicado */
+    text-decoration: none;
+    margin-left: 20px;
 }
