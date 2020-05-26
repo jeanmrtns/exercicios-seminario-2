@@ -1,26 +1,29 @@
 body{
-    background-color: rgb(246, 255, 255);
+    background-color: #d85120;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #titulo{
     margin-top: 0px;
-    background-color: cornsilk;
-    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    color: chocolate;
+    color: rgb(61, 16, 2);
 }
 
 .paragrafo{
     font-size: larger;
-    color: rgb(10, 68, 68);
     margin-left: 20px;
 }
 
 li{
     font-size: large;
-    color: maroon;
+    color: rgba(255, 255, 255, 0.699);
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .segundo-paragrafo{
