@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
     <title>Jean</title>
 </head>
 <body>
@@ -20,6 +21,26 @@
 
     <p class="segundo-paragrafo">Estou cursando o 2º período de C.C na PUC-MG</p>
    
+    <div>
+        <p>Informe seu nome:</p>
+
+        <ul>
+            <li>Nome: 
+                <input type="text" id="nome" class="inputNome" placeholder="Insira seu nome">
+            </li>
+
+            <li>Idade: 
+                <button class="botaoIdade" onclick="decrementaIdade()">-</button>
+                <input type="text" id="idade" value=1 disabled>
+                <button class="botaoIdade" onclick="incrementaIdade()">+</button>
+            </li>
+        </ul>
+
+        <div class="botao">
+            <button onclick="cliqueBotao()">Enviar</button>
+        </div>
+    </div>
+
     <div class="links" style="text-decoration: none;">
             <p>Redes Sociais:</p>
             <ul>
@@ -30,5 +51,7 @@
             </ul>
     </div>
 
+  
+    
 </body>
 </html>
