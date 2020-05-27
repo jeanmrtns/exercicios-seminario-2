@@ -23,20 +23,19 @@
    
     <div>
         <ul>
-            <li>Nome: 
+            <li class="titulo-input">Nome: 
                 <input type="text" id="nome" class="inputNome" placeholder="Insira seu nome">
             </li>
 
-            <li>Idade: 
+            <li class="titulo-input">Idade: 
                 <button class="botaoIdade" onclick="decrementaIdade()">-</button>
                 <input type="text" id="idade" value=1 disabled>
                 <button class="botaoIdade" onclick="incrementaIdade()">+</button>
             </li>
         </ul>
 
-        <div class="botao">
-            <button onclick="cliqueBotao()">Enviar</button>
-        </div>
+        <button onclick="cliqueBotao()" id="botao">Enviar</button>
+
     </div>
 
     <div class="links" style="text-decoration: none;">
