@@ -32,7 +32,7 @@ input, #incrementaIdade, #decrementaIdade{
 .erro{
     border-radius: 10px;
     border-color: crimson;
-    color: red;
+    background-color: aquamarine;
 }
 
 input{
