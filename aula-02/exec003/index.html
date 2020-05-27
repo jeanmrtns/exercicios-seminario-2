@@ -3,19 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JQuery</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="../jQuery.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
 </head>
+
 <body>
+
     <h1 id="maca">Hey apple</h1>
     <p id="frase">What do you do?</p>
 
-    <ul>
-        <li id="consertar">Fix</li>
-        <li id="seu">Your</li>
-        <li id="cerebro">Brain</li>
-    </ul>
+    <div class="form">
+        <div class="field" id="field_nome">
+            <label for="fname">Primeiro nome:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <br>
+        </div><!--field_nome-->
+
+        <div class="field" id="field_sobrenome">
+            <label for="sname">Sobrenome:</label><br>
+            <input type="text" id="sname" name="sname"><br>
+            <br>
+        </div><!--field_sobrenome-->
+
+        <div class="field" id="field_altura">
+            <label for="height">Altura:</label><br>
+            <input type="text" id="height" name="height"><br>
+            <br>
+        </div><!--field_altura-->
+
+        <div class="field" id="field_idade">
+            <label for="idade">Idade:</label><br>
+            <button id="decrementaIdade" onclick="decrementaIdade()">-</button>
+            <input type="text" id="idade" value="1" disabled>
+            <button id="incrementaIdade" onclick="incrementaIdade()">+</button>
+        </div><!--field_idade-->    
+
+        <div class="check" id="check">
+            <p>Curte animes? <input type="checkbox" name="anime?" class="checkbox"></p>
+            <p>Joga video-games? <input type="checkbox" nome="video-game" class="checkbox"></p>
+        </div><!--check-->
+
+        <button id="botao">Submit</button>
+        
+    </div><!--form-->
+    <p id="confirma" class="confirma">Cadastro realizado com sucesso!</p>
 
 </body>
 </html>
